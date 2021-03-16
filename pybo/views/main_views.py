@@ -9,9 +9,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 from pyvirtualdisplay import Display
 
-path='/home/ubuntu/chromedriver'
-driver = webdriver.Chrome(path)
-
 bp = Blueprint('main', __name__, url_prefix='/')
 
 options = webdriver.ChromeOptions()
